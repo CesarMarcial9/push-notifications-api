@@ -3,7 +3,7 @@ const app = require("./app");
 const mockInsight = require('./models/mockInsight')
 
 describe("Push Notifications API", () => {
-  it('responds with json', function(done) {
+  it('should respond with json', function(done) {
     request(app)
       .post('/')
       .send(mockInsight)
