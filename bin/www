@@ -9,7 +9,7 @@ var app = require('../app');
 var debug = require('debug')('push-api:server');
 var http = require('http');
 
-dotenv.config({path: `${process.cwd(), '/.env.', process.env.NODE_ENV}`})
+dotenv.config()
 /**
  * Get port from environment and store in Express.
  */
