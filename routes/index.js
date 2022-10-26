@@ -1,6 +1,6 @@
 var express = require('express');
-const SendNotification = require('../lib/SendNotification');
 var router = express.Router();
+const SendNotification = require('../lib/SendNotification');
 
 /* GET the app status */
 router.get('/', async function(req, res, next) {

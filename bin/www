@@ -4,17 +4,15 @@
  * Module dependencies.
  */
 
-var dotenv = require('dotenv')
 var app = require('../app');
 var debug = require('debug')('push-api:server');
 var http = require('http');
 
-dotenv.config()
 /**
  * Get port from environment and store in Express.
  */
 
-var port = process.env.PORT || '3000'
+var port = process.env.PORT || 3000
 app.set('port', port);
 
 /**
