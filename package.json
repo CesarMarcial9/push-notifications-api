@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "NODE_ENV=prod node ./bin/www",
-    "dev": "NODE_ENV=dev node ./bin/www",
-    "test": "NODE_ENV=dev jest --watchAll"
+    "start": "node ./bin/www",
+    "dev": "node ./bin/www",
+    "test": "jest --watchAll"
   },
   "dependencies": {
     "@onesignal/node-onesignal": "^1.0.0-beta4",
