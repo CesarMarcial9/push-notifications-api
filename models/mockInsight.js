@@ -18,7 +18,7 @@ const mockInsight = {
     title: "Bill lower than usual",
     updated_at: "2020-03-31T18:41:32+00:00",
     user_guid: "USR-29dfffe5-296e-4784-89fd-6e81c8e682e6",
-    user_id: "abc-123-abcd",
+    user_id: "nate@sumawealth.com",
   },
 };
 
